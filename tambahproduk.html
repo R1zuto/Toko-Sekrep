@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tambah Produk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tambahproduk.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Admin Panel</h2>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="pesanan.html">Pesanan</a></li>
+        <li><a href="index.html">Keluar</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <header>
+        <h1>Tambah Produk Toko Scrapers</h1>
+      </header>
+
+      <section class="form-container">
+        <form enctype="multipart/form-data">
+          <label for="nama_produk">nama produk:</label>
+          <input type="text" id="nama_produk" name="nama_produk" required>
+
+          <label for="ukuran">ukuran:</label>
+          <input type="text" id="ukuran" name="ukuran">
+
+          <label for="harga">harga:</label>
+          <input type="text" id="harga" name="harga">
+
+          <label for="size_tag">size tag:</label>
+          <input type="text" id="size_tag" name="size_tag">
+
+          <label for="dimensi">panjang x lebar (pxl):</label>
+          <input type="text" id="dimensi" name="dimensi">
+
+          <label for="warna">warna baju:</label>
+          <input type="text" id="warna" name="warna">
+
+          <label for="kondisi">kondisi:</label>
+          <input type="text" id="kondisi" name="kondisi">
+
+          <label for="gambar">Gambar Produk:</label>
+          <input type="file" id="gambar" name="gambar">
+
+          <div class="button-group">
+            <button type="submit" class="simpan">Simpan</button>
+            <button type="reset" class="hapus">Hapus</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

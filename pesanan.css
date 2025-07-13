@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  background-color: #87a2b4;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #5e8195;
+  width: 250px;
+  padding: 20px;
+  color: #000;
+}
+
+.sidebar h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+header {
+  background-color: #5e8195;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.pesanan-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pesanan-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  color: #000;
+}
+
+.pesanan-card a {
+  color: #003366;
+  text-decoration: underline;
+  font-weight: bold;
+}
